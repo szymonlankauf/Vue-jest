@@ -9,4 +9,4 @@ describe('buttonCounter', () => {
         button.trigger('click');
         expect(wrapper.vm.count).toBe(1);
     })
-})
+});
